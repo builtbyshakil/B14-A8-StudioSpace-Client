@@ -117,7 +117,17 @@ export default function Footer() {
       <div className="border-t border-base-300">
         <div className="container-page flex flex-col items-center justify-between gap-2 py-5 text-sm text-base-content/60 sm:flex-row">
           <p>© {new Date().getFullYear()} StudioSpace. All rights reserved.</p>
-          <p>By using StudioSpace you agree to our Terms of Use and Privacy Policy.</p>
+          <p>
+  By using StudioSpace you agree to our{" "}
+  <Link href="/terms" className="underline hover:text-primary">
+    Terms of Service
+  </Link>{" "}
+  and{" "}
+  <Link href="/privacy" className="underline hover:text-primary">
+    Privacy Policy
+  </Link>
+  .
+</p>
         </div>
       </div>
     </footer>
