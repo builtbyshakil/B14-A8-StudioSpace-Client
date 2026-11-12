@@ -2,7 +2,7 @@
 
 Peer-to-peer creative workspace and production studio sharing platform.
 
-**Live site:** https://your-studiospace-site.vercel.app
+**Live site:** https://b14-a8-studio-space-client.vercel.app/
 **Server repo:** https://github.com/builtbyshakil/studiospace-server
 
 ## Features
