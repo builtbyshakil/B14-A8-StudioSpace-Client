@@ -1,0 +1,121 @@
+@import "tailwindcss";
+
+@plugin "daisyui" {
+  themes: false;
+}
+
+@plugin "daisyui/theme" {
+  name: "studiolight";
+  default: true;
+  color-scheme: light;
+  --color-base-100: #ffffff;
+  --color-base-200: #f1f3f7;
+  --color-base-300: #dde1ea;
+  --color-base-content: #14181f;
+  --color-primary: #2f4bff;
+  --color-primary-content: #ffffff;
+  --color-secondary: #ff7a1a;
+  --color-secondary-content: #1a0e03;
+  --color-accent: #0f9f9a;
+  --color-accent-content: #ffffff;
+  --color-neutral: #14181f;
+  --color-neutral-content: #f1f3f7;
+  --color-info: #2f7bff;
+  --color-info-content: #ffffff;
+  --color-success: #16a34a;
+  --color-success-content: #ffffff;
+  --color-warning: #f59e0b;
+  --color-warning-content: #1f1300;
+  --color-error: #dc2626;
+  --color-error-content: #ffffff;
+  --radius-selector: 0.5rem;
+  --radius-field: 0.5rem;
+  --radius-box: 0.75rem;
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+  --border: 1px;
+  --depth: 0;
+  --noise: 0;
+}
+
+@plugin "daisyui/theme" {
+  name: "studiodark";
+  prefersdark: true;
+  color-scheme: dark;
+  --color-base-100: #161b24;
+  --color-base-200: #0e1117;
+  --color-base-300: #262c39;
+  --color-base-content: #e8ebf2;
+  --color-primary: #7b8eff;
+  --color-primary-content: #0a0f2e;
+  --color-secondary: #ff9345;
+  --color-secondary-content: #1a0e03;
+  --color-accent: #2dd4bf;
+  --color-accent-content: #052b27;
+  --color-neutral: #262c39;
+  --color-neutral-content: #e8ebf2;
+  --color-info: #60a5fa;
+  --color-info-content: #06142b;
+  --color-success: #4ade80;
+  --color-success-content: #052e16;
+  --color-warning: #fbbf24;
+  --color-warning-content: #1f1300;
+  --color-error: #f87171;
+  --color-error-content: #2b0707;
+  --radius-selector: 0.5rem;
+  --radius-field: 0.5rem;
+  --radius-box: 0.75rem;
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+  --border: 1px;
+  --depth: 0;
+  --noise: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "DM Sans", system-ui, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+.font-display {
+  font-family: "Bricolage Grotesque", "DM Sans", system-ui, sans-serif;
+  letter-spacing: -0.02em;
+}
+
+@layer components {
+  .container-page {
+    @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .section-space {
+    @apply py-16 md:py-20;
+  }
+
+  .section-title {
+    @apply text-3xl font-extrabold text-base-content md:text-4xl;
+  }
+
+  .section-subtitle {
+    @apply mt-3 max-w-2xl text-base text-base-content/70;
+  }
+
+  .card-surface {
+    @apply rounded-2xl border border-base-300 bg-base-100;
+  }
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #ffffff;
+}
+
+.swiper-pagination-bullet {
+  background: #ffffff;
+}
