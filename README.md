@@ -2,8 +2,8 @@
 
 Peer-to-peer creative workspace and production studio sharing platform.
 
-**Live site:** https://b14-a8-studio-space-client.vercel.app/
-**Server repo:** https://github.com/builtbyshakil/studiospace-server
+**Live site:** https://b14-a8-studio-space-client.vercel.app
+**Server repo:** https://github.com/builtbyshakil/B14-A8-StudioSpace-Server
 
 ## Features
 
